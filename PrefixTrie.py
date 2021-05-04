@@ -39,6 +39,7 @@ words=["hello","help","hell","helen","try","trie","tree","trip"]
 t=PrefixTrie()
 
 for word in words:
+#O(N*l) to build trie
 	t.insert(word) #inserting word into trie 
 
 
@@ -47,9 +48,6 @@ print("Is helen present? ",t.search("helen"))
 print("Is henry present? ",t.search("helen"))
 print(t.getCountStartsWith("tri"))
 
-#SuffixTrie 
-
-#Multi way tree
 
 
 
